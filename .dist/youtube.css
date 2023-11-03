@@ -1,0 +1,51 @@
+.youtube{
+    display:  flex;
+     flex-direction: column;
+    height:100vh;
+}
+.header{
+    height:70px;
+    border:1px solid black;
+    display :flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+}
+.mainbody{
+    flex:1;
+border:1px solid black;
+display-flex:row;
+flex direction -row;
+}
+
+.logo{
+width:100px;
+border:1px dotted black;
+display:flex;
+flex-direction: row;
+background-color: grey;
+margin: 5px;
+gap:5px;
+justify-content:flex-start;
+}
+.a{
+    flex: 1;
+    background-color: grey;
+    }
+.search{
+width: 400px;
+border: 1px dotted black;
+}
+.signin{
+    width: 100px;
+    border:1px dotted black;
+    }
+.sidebar{
+width:70px;
+border: 1px double black;
+}
+.videos{
+    flex:1;
+    border: 1px double black;
+}        
+
